@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Dataset — download from datasets.simula.no/depresjon
+data/
+
+# Training outputs — not committed
+runs/
+*.csv
+*.pt
+*.pth
+*.log
+
+# Block all assets by default, then explicitly allow the safe aggregate ones
+assets/*
+!assets/results.png
+!assets/roc_pr.png
+!assets/eda_population.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Colab local cache
+content/
+
